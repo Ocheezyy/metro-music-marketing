@@ -1,101 +1,106 @@
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Instagram, Music, Users, Paintbrush, Globe, Heart } from 'lucide-react';
 
-export default function Home() {
+export default function MusicPromoterServicesDark() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+        <main className="flex-1">
+          <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-b from-blue-900 to-gray-900">
+            <div className="container px-4 md:px-6">
+              <div className="flex flex-col items-center space-y-4 text-center">
+                <div className="space-y-2">
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+                    Our Services
+                  </h1>
+                  <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl/relaxed lg:text-2xl/relaxed xl:text-3xl/relaxed">
+                    Amplify Your Sound. Build Your Brand. Reach the Right Fans.
+                  </p>
+                </div>
+                <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl/relaxed">
+                  We specialize in helping artists like you break through the noise. Whether you&#39;re just starting out or ready to take your music to the next level, our tailored marketing solutions will help you connect with your audience, grow your presence, and turn listeners into loyal fans.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section id="services" className="w-full py-12 md:py-24 lg:py-32">
+            <div className="container px-4 md:px-6">
+              <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                {[
+                  {
+                    title: "Social Media Management",
+                    icon: Instagram,
+                    subtitle: "Turn Likes Into Fans",
+                    description: "Your social media should be as dynamic as your music. We create eye-catching content, engage your audience, and optimize your profiles to grow your following. From Instagram Reels to TikTok trends, we'll make sure your voice is heard on every platform."
+                  },
+                  {
+                    title: "Music Promotion",
+                    icon: Music,
+                    subtitle: "Get Your Tracks On Repeat",
+                    description: "Your music deserves to be heard. We pitch your songs to top playlists, coordinate strategic ad campaigns, and connect you with the fans who will stream, share, and love your music."
+                  },
+                  {
+                    title: "Brand Development",
+                    icon: Paintbrush,
+                    subtitle: "Define Your Artist Identity",
+                    description: "Your brand is your story, your style, your vibe. We'll help you craft a unique image and narrative that resonates with fans and the industry alike. From logos to album visuals, we'll build a brand that reflects your artistry."
+                  },
+                  {
+                    title: "Website & EPK Creation",
+                    icon: Globe,
+                    subtitle: "Your Online HQ",
+                    description: "A sleek, professional website and electronic press kit (EPK) are essential for bookings, media coverage, and fan engagement. We'll design and build your digital home, making sure it's as impressive as your music."
+                  },
+                  {
+                    title: "Fan Engagement Campaigns",
+                    icon: Heart,
+                    subtitle: "Create Superfans",
+                    description: "Fans are the lifeblood of your career. We'll help you stay connected through email newsletters, SMS campaigns, and exclusive offers that keep your audience excited and engaged."
+                  },
+                  {
+                    title: "Additional Services",
+                    icon: Users,
+                    subtitle: "Tailored to Every Artist's Needs",
+                    description: "We offer SEO optimization to help fans discover your music, content strategy to keep you relevant, and monetization strategies to unlock new income streams."
+                  }
+                ].map((service, index) => (
+                    <Card key={index} className="bg-gray-800 bg-opacity-50 backdrop-blur-lg border-gray-700 text-gray-100 shadow-lg shadow-blue-500/20">
+                      <CardHeader>
+                        <CardTitle className="flex items-center">
+                          <service.icon className="w-6 h-6 mr-2" />
+                          {service.title}
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <h3 className="font-semibold mb-2">{service.subtitle}</h3>
+                        <p className="text-sm text-gray-300">
+                          {service.description}
+                        </p>
+                      </CardContent>
+                    </Card>
+                ))}
+              </div>
+            </div>
+          </section>
+          <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-800 bg-opacity-50 backdrop-blur-lg">
+            <div className="container px-4 md:px-6">
+              <div className="flex flex-col items-center space-y-4 text-center">
+                <div className="space-y-2">
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                    Ready to Amplify Your Music Career?
+                  </h2>
+                  <p className="mx-auto max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                    Let&#39;s create a tailored strategy to boost your music and build your fanbase.
+                  </p>
+                </div>
+                <div className="w-full max-w-sm space-y-2">
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white" size="lg">
+                    Get Started
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+  )
 }
