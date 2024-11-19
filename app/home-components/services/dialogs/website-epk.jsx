@@ -1,5 +1,3 @@
-"use client"
-
 import {Button} from "@/components/ui/button";
 import {DialogContent, DialogDescription, DialogHeader, DialogTitle} from "@/components/ui/dialog";
 import {Globe, FileText, Users, Zap} from "lucide-react";
@@ -21,7 +19,7 @@ export default function WebsiteEPK() {
                     <h2 className="text-3xl font-bold text-center mb-6 text-blue-400">Build a Home Base for Your Music Career</h2>
 
                     <p className="text-lg text-gray-300">
-                        In the digital age, your website and electronic press kit (EPK) are essential tools for success. They serve as your professional hub, showcasing everything from your music and bio to press coverage and booking information. We'll design a modern, user-friendly website and a compelling EPK that reflect your artistry.
+                        In the digital age, your website and electronic press kit (EPK) are essential tools for success. They serve as your professional hub, showcasing everything from your music and bio to press coverage and booking information. We&#39;ll design a modern, user-friendly website and a compelling EPK that reflect your artistry.
                     </p>
 
                     <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-100">Our services include:</h3>
@@ -40,7 +38,7 @@ export default function WebsiteEPK() {
                                 <FileText className="mr-2" />
                                 Electronic Press Kit (EPK)
                             </h4>
-                            <p className="text-gray-300">A professional EPK is your key to securing gigs, press coverage, and industry attention. We'll include your bio, music samples, press photos, and contact info in a sleek, shareable format.</p>
+                            <p className="text-gray-300">A professional EPK is your key to securing gigs, press coverage, and industry attention. We&#39;ll include your bio, music samples, press photos, and contact info in a sleek, shareable format.</p>
                         </div>
 
                         <div className="bg-gray-700 p-4 rounded-lg">

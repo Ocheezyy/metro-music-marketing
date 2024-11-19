@@ -1,5 +1,3 @@
-"use client"
-
 import {Button} from "@/components/ui/button";
 import { PlayCircle, TrendingUp, Users, Music } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -21,7 +19,7 @@ export default function MusicPromotion() {
                 <h2 className="text-3xl font-bold text-center mb-6 text-blue-400">Get Your Tracks in Front of the Right Audience</h2>
 
                 <p className="text-lg text-gray-300">
-                    Creating amazing music is just the beginning—getting it heard is where the magic happens. With so many artists competing for attention, you need a strategic promotion plan to break through the noise. That's exactly what we deliver.
+                    Creating amazing music is just the beginning—getting it heard is where the magic happens. With so many artists competing for attention, you need a strategic promotion plan to break through the noise. That&#39;s exactly what we deliver.
                 </p>
 
                 <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-100">Our music promotion services include:</h3>
@@ -56,14 +54,14 @@ export default function MusicPromotion() {
                             <Music className="mr-2" />
                             Release Campaigns
                         </h4>
-                        <p className="text-gray-300">From teaser videos to launch countdowns, we'll craft a promotional campaign that builds excitement around your singles, EPs, or albums.</p>
+                        <p className="text-gray-300">From teaser videos to launch countdowns, we&#39;ll craft a promotional campaign that builds excitement around your singles, EPs, or albums.</p>
                     </div>
                 </div>
 
                 <div className="mt-8 bg-blue-900 p-6 rounded-lg">
                     <h3 className="text-2xl font-semibold mb-4 text-blue-300">Why It Matters</h3>
                     <p className="text-lg text-gray-300">
-                        Strategic music promotion not only boosts your streams and downloads but also builds long-term connections with fans who will follow your journey. It's about creating a sustainable career, not just a one-hit wonder.
+                        Strategic music promotion not only boosts your streams and downloads but also builds long-term connections with fans who will follow your journey. It&#39;s about creating a sustainable career, not just a one-hit wonder.
                     </p>
                 </div>
 

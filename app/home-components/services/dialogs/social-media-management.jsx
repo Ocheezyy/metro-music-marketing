@@ -1,5 +1,3 @@
-"use client"
-
 import {Button} from "@/components/ui/button";
 import {DialogContent, DialogDescription, DialogHeader, DialogTitle} from "@/components/ui/dialog";
 import {ScrollArea} from "@/components/ui/scroll-area";
@@ -21,7 +19,7 @@ export default function SocialMediaManagement() {
                     <h2 className="text-3xl font-bold text-center mb-6 text-blue-400">Transform Social Platforms Into Your Stage</h2>
 
                     <p className="text-lg text-gray-300">
-                        Social media is one of the most powerful tools for artists to grow their audience and engage with fans worldwide. However, navigating the ever-changing landscape of platforms like Instagram, TikTok, and Twitter can be overwhelming. That's why we take the reins, ensuring your profiles shine and your audience stays engaged.
+                        Social media is one of the most powerful tools for artists to grow their audience and engage with fans worldwide. However, navigating the ever-changing landscape of platforms like Instagram, TikTok, and Twitter can be overwhelming. That&#39;s why we take the reins, ensuring your profiles shine and your audience stays engaged.
                     </p>
 
                     <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-100">Our services include:</h3>
@@ -40,7 +38,7 @@ export default function SocialMediaManagement() {
                                 <UserCheck className="mr-2" />
                                 Profile Optimization
                             </h4>
-                            <p className="text-gray-300">From crafting SEO-friendly bios to optimizing your profile links, we'll make sure fans and industry professionals can easily find and connect with you.</p>
+                            <p className="text-gray-300">From crafting SEO-friendly bios to optimizing your profile links, we&#39;ll make sure fans and industry professionals can easily find and connect with you.</p>
                         </div>
 
                         <div className="bg-gray-700 p-4 rounded-lg">
