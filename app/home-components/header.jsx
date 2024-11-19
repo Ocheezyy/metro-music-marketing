@@ -9,10 +9,10 @@ export default function header() {
                 <span className="ml-2 text-lg font-bold">Metro Media</span>
             </Link>
             <nav className="ml-auto flex gap-4 sm:gap-6">
-                <Link className="text-sm font-medium hover:text-gray-300" href="#services">
+                <Link className="text-sm font-medium hover:text-gray-300" href="/services">
                     Services
                 </Link>
-                <Link className="text-sm font-medium hover:text-gray-300" href="#about">
+                <Link className="text-sm font-medium hover:text-gray-300" href="/about">
                     About
                 </Link>
                 <Link className="text-sm font-medium hover:text-gray-300" href="#contact">
