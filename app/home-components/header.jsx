@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Music } from "lucide-react";
 import Image from "next/image";
 
 export default function header() {
