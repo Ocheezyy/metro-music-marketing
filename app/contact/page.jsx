@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button"
 import {
     Form,
     FormControl,
-    FormDescription,
     FormField,
     FormItem,
     FormLabel,
@@ -17,12 +16,12 @@ import {
 import { Input } from "@/components/ui/input"
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
 import {Textarea} from "@/components/ui/textarea";
-import {CheckCircle, Send} from "lucide-react";
+import {Send} from "lucide-react";
 import {useState} from "react";
 import ThankYou from "@/app/contact/thank-you";
 
 
-export default function Page(props) {
+export default function Page() {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
 
