@@ -21,7 +21,7 @@ export default function ServicesPage() {
           aria-hidden="true"
         />
         <div className="relative z-20 flex-grow flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
-          <div className="px-6 pt-6 rounded-full mb-8">
+          <div className="px-6 sm:pt-0 md:pt-4 lg:pt-6 rounded-full mb-8">
             <Image
               src="/metro-media.svg"
               alt="metro-media-logo"
