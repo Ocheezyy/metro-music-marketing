@@ -14,7 +14,7 @@ export default function ThankYou() {
                 </CardHeader>
                 <CardContent>
                     <p className="text-center text-gray-300 mb-4">
-                        Thank you for reaching out to us. We've received your message and appreciate your interest.
+                        Thank you for reaching out to us. We&#39;ve received your message and appreciate your interest.
                     </p>
                     <p className="text-center text-gray-300">
                         Our team will review your inquiry and get back to you as soon as possible. We typically respond
